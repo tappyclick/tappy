@@ -14,7 +14,7 @@ Start and stop with one hotkey (F6 by default).
 
 ## Download
 
-Go to the [Releases page](../../releases), download the latest `Tappy.zip`, unzip it, and open `Tappy.exe`. You don't need Python or anything else installed.
+[Download Tappy.zip](https://github.com/tappyclick/tappy/raw/main/Tappy.zip), unzip it, and open `Tappy.exe`. You don't need Python or anything else installed.
 
 > **Windows may show "Windows protected your PC".**
 > Tappy sends fake keyboard and mouse input, so Windows SmartScreen and some antivirus tools flag it by mistake. Click **More info**, then **Run anyway**. Tappy only types and clicks. Nothing else runs.
@@ -55,6 +55,10 @@ Use an F-key (like F8) or add Ctrl, Alt or Shift (like Ctrl+Shift+S). Plain lett
 - **Windows only.**
 - **Online games:** many ban auto clickers and auto typers. Use Tappy at your own risk, and only where it is allowed.
 - **Settings file:** your hotkey is saved in `.tappy_settings.json` in your user folder.
+
+## Support Tappy
+
+Tappy is free. If it saved you some time, you can [buy me a coffee on Ko-fi](https://ko-fi.com/tappyclick).
 
 ## License
 
