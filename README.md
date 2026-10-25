@@ -17,7 +17,7 @@ Start and stop with one hotkey (F6 by default).
 Go to the [Releases page](../../releases), download the latest `Tappy.zip`, unzip it, and open `Tappy.exe`. You don't need Python or anything else installed.
 
 > **Windows may show "Windows protected your PC".**
-> Tappy sends fake keyboard and mouse input, so Windows SmartScreen and some antivirus tools flag it by mistake. Click **More info**, then **Run anyway**. The full source code is in this repo if you want to check it.
+> Tappy sends fake keyboard and mouse input, so Windows SmartScreen and some antivirus tools flag it by mistake. Click **More info**, then **Run anyway**. Tappy only types and clicks. Nothing else runs.
 
 ## How to use it
 
@@ -50,33 +50,12 @@ Switching tabs stops whatever is running.
 
 Use an F-key (like F8) or add Ctrl, Alt or Shift (like Ctrl+Shift+S). Plain letters aren't allowed because they would trigger while you type. Press Esc to cancel, or **Reset to F6** to go back to the default. Your choice is saved for next time.
 
-## Run from source
-
-You need Python 3 on Windows.
-
-```
-pip install pynput
-python autotool.py
-```
-
-## Build the .exe yourself
-
-```
-pip install pyinstaller
-pyinstaller --onedir --windowed --name Tappy autotool.py
-```
-
-Your app will be in the `dist/Tappy` folder. Zip that folder to share it.
-
 ## Good to know
 
 - **Windows only.**
 - **Online games:** many ban auto clickers and auto typers. Use Tappy at your own risk, and only where it is allowed.
 - **Settings file:** your hotkey is saved in `.tappy_settings.json` in your user folder.
 
-## Files
+## License
 
-| File | What it is |
-| --- | --- |
-| `autotool.py` | The whole app |
-| `typer.png`, `clicker.png` | Screenshots for this README |
+Copyright (c) 2026. All rights reserved. You may download and use Tappy for personal use. You may not copy, modify, redistribute or resell it.
